@@ -94,3 +94,47 @@ switch (cups) {  // break must needed
         console.log('the value of cups is none if them')
         break;
 }
+
+// tutorial 51 finished 
+// tutorial 52 started 
+
+// arrys and objects
+
+let person = {
+    name_of_person: "shajidurrahman",
+    age: 12,
+    school: "dinajpur_zilla_school"
+}
+console.log(person);
+console.log(person.name_of_person);
+
+let arrys = [2,4,5,6,7,7, 'shajidur rahman'];
+console.log(arrys);
+
+
+let arrys2 = new Array(2,47384,5,648,7,7, 'shajidur rahman');
+console.log(arrys2);
+
+
+// to know the lenght use .lenght
+let arrys3 = new Array(2,4,5,6,7,7, 'shajidur rahman');
+console.log(arrys3.length);
+
+
+// to shot the use .sort
+let arrys4 = [233,4,545,6,7,7454, 'shajidur rahman'];
+arrys4 = arrys4.sort();
+console.log(arrys4);
+
+
+// to push to a arry use push
+
+arrys4.push('this is push');
+console.log(arrys4)
+
+let number = new Array(23);
+console.log(number);
+
+
+// tutorial 52 finished
+// tutorial 53 started
