@@ -138,3 +138,18 @@ console.log(number);
 
 // tutorial 52 finished
 // tutorial 53 started
+
+
+//functions 
+
+function greet(nameFun){
+    console.log(`${nameFun} is a good boy`);
+}
+
+let name2 = 'shajidur rahman';
+let name3 = 'sifat ';
+let name4 = 'jannat';
+
+greet(name2);
+greet(name3);
+greet(name4);
