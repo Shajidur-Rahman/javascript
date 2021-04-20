@@ -185,3 +185,52 @@ greater(34,2);
 
 // tutorial 53 finished
 // tutorial 54 started
+
+// alart promt confirm
+
+
+// alart in js
+
+// alert('this is a message')
+
+
+// prompt 
+
+// let gamer = prompt('what is your name?' , 'Guest')
+// document.getElementById('prompt').innerHTML = gamer;
+
+
+// confirm 
+
+// let deletpost = confirm('do you really want to delet this post? ')
+// console.log(deletpost)
+
+// if(deletpost == true){
+//     document.getElementById('con').innerHTML = 'post deleted';
+    
+// }
+// else{
+//     document.getElementById('con').innerHTML = 'post not deleted';
+
+// }
+
+
+// same thing
+
+
+
+
+// let deletpost = confirm('do you really want to delet this post? ')
+// console.log(deletpost)
+
+// if(deletpost){
+//     document.getElementById('con').innerHTML = 'post deleted';
+    
+// }
+// else{
+//     document.getElementById('con').innerHTML = 'post not deleted';
+
+// }
+
+// tutoral 54 finished 
+// tutoral 55 started
