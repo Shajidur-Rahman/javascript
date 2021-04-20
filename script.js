@@ -262,3 +262,9 @@ for(element of friends){
     console.log('hello ' + element + 'to modern js')
 }
 
+// for loops in objects
+person2 = {
+    nameper = 'shajidur rahman',
+    ageper = 12,
+    schoolper = 'dinahpur zilla school'
+}
