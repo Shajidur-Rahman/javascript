@@ -142,14 +142,46 @@ console.log(number);
 
 //functions 
 
-function greet(nameFun){
+function greet(nameFun, greating = 'good morning'){
+    console.log(`${greating} ${nameFun}`);
     console.log(`${nameFun} is a good boy`);
 }
 
 let name2 = 'shajidur rahman';
 let name3 = 'sifat ';
 let name4 = 'jannat';
-
+let greating = 'good morning '
 greet(name2);
 greet(name3);
 greet(name4);
+
+
+
+// return function
+
+function sum(a,b,c){
+    d = a + b + c;
+    return d;
+}
+
+let result = sum(2,5,8);
+console.log(result);
+
+// greater than function
+
+function greater(num1, num2){
+    if(num1 > num2){
+        console.log(`the ${num1} is greater than ${num2}`)
+        
+    }
+    else{
+        console.log(`the ${num2} is greater than ${num1}`)
+
+    }
+
+}
+
+greater(34,2);
+
+// tutorial 53 finished
+// tutorial 54 started
