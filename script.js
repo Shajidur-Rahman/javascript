@@ -260,11 +260,32 @@ friends.forEach(
 // other js
 for(element of friends){
     console.log('hello ' + element + 'to modern js')
-}
+};
 
 // for loops in objects
 person2 = {
-    nameper = 'shajidur rahman',
-    ageper = 12,
-    schoolper = 'dinahpur zilla school'
-}
+    nameper : 'shajidur rahman',
+    ageper : 12,
+    schoolper : 'dinahpur zilla school'
+};
+// use this loop for Objects
+for(key in person2){
+    console.log(`the ${key} of employe is ${person2[key]}`);
+};
+
+
+
+// while loop
+let iw = 0;
+while (iw <10) {
+    console.log(`${iw} is less than 10`);
+    iw++;
+};
+
+
+// tutorial 54 finished
+// tutorial 55 started
+
+
+
+
