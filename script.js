@@ -233,4 +233,32 @@ greater(34,2);
 // }
 
 // tutoral 54 finished 
-// tutoral 55 started
+// tutoral 55 started 
+
+// for loop and while loop
+
+// for looop
+for(i=0; i<3; i++){
+    console.log(i)
+}
+
+let friends = ['sifat', 'saad', 'jannat', 'baba'];
+for (let index = 0; index < friends.length; index++) {
+    console.log('hello '+ friends[index]);
+    
+}
+
+
+
+// moder js 
+friends.forEach(
+    function friends(elements){
+        console.log('hello ' + elements);
+    }
+);
+
+// other js
+for(element of friends){
+    console.log('hello ' + element + 'to modern js')
+}
+
