@@ -289,3 +289,23 @@ while (iw <10) {
 
 
 
+// dom
+
+let main = document.getElementById('main');
+console.log(main);
+
+
+let nav = document.getElementById('nav');
+console.log(nav);
+
+
+let contant = document.getElementsByClassName('contant');
+console.log(contant);
+
+
+let sel = document.querySelector(".contant");
+console.log(sel)
+
+
+// tutorial 56 finished
+// tutorial 57 started
