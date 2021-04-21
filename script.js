@@ -57,10 +57,10 @@ const a = "it cant be changed "  // const cant be changed
 // if else conditions
 
 let age = 2;
-if(age > 18){
+if (age > 18) {
     console.log('you cant drink it ');
 }
-else if (age == 12){
+else if (age == 12) {
     console.log('you are 12');
 }
 else {
@@ -108,21 +108,21 @@ let person = {
 console.log(person);
 console.log(person.name_of_person);
 
-let arrys = [2,4,5,6,7,7, 'shajidur rahman'];
+let arrys = [2, 4, 5, 6, 7, 7, 'shajidur rahman'];
 console.log(arrys);
 
 
-let arrys2 = new Array(2,47384,5,648,7,7, 'shajidur rahman');
+let arrys2 = new Array(2, 47384, 5, 648, 7, 7, 'shajidur rahman');
 console.log(arrys2);
 
 
 // to know the lenght use .lenght
-let arrys3 = new Array(2,4,5,6,7,7, 'shajidur rahman');
+let arrys3 = new Array(2, 4, 5, 6, 7, 7, 'shajidur rahman');
 console.log(arrys3.length);
 
 
 // to shot the use .sort
-let arrys4 = [233,4,545,6,7,7454, 'shajidur rahman'];
+let arrys4 = [233, 4, 545, 6, 7, 7454, 'shajidur rahman'];
 arrys4 = arrys4.sort();
 console.log(arrys4);
 
@@ -142,7 +142,7 @@ console.log(number);
 
 //functions 
 
-function greet(nameFun, greating = 'good morning'){
+function greet(nameFun, greating = 'good morning') {
     console.log(`${greating} ${nameFun}`);
     console.log(`${nameFun} is a good boy`);
 }
@@ -159,29 +159,29 @@ greet(name4);
 
 // return function
 
-function sum(a,b,c){
+function sum(a, b, c) {
     d = a + b + c;
     return d;
 }
 
-let result = sum(2,5,8);
+let result = sum(2, 5, 8);
 console.log(result);
 
 // greater than function
 
-function greater(num1, num2){
-    if(num1 > num2){
+function greater(num1, num2) {
+    if (num1 > num2) {
         console.log(`the ${num1} is greater than ${num2}`)
-        
+
     }
-    else{
+    else {
         console.log(`the ${num2} is greater than ${num1}`)
 
     }
 
 }
 
-greater(34,2);
+greater(34, 2);
 
 // tutorial 53 finished
 // tutorial 54 started
@@ -207,7 +207,7 @@ greater(34,2);
 
 // if(deletpost == true){
 //     document.getElementById('con').innerHTML = 'post deleted';
-    
+
 // }
 // else{
 //     document.getElementById('con').innerHTML = 'post not deleted';
@@ -225,7 +225,7 @@ greater(34,2);
 
 // if(deletpost){
 //     document.getElementById('con').innerHTML = 'post deleted';
-    
+
 // }
 // else{
 //     document.getElementById('con').innerHTML = 'post not deleted';
@@ -238,38 +238,38 @@ greater(34,2);
 // for loop and while loop
 
 // for looop
-for(i=0; i<3; i++){
+for (i = 0; i < 3; i++) {
     console.log(i)
 }
 
 let friends = ['sifat', 'saad', 'jannat', 'baba'];
 for (let index = 0; index < friends.length; index++) {
-    console.log('hello '+ friends[index]);
-    
+    console.log('hello ' + friends[index]);
+
 }
 
 
 
 // moder js 
 friends.forEach(
-    function friends(elements){
+    function friends(elements) {
         console.log('hello ' + elements);
     }
 );
 
 // other js
-for(element of friends){
+for (element of friends) {
     console.log('hello ' + element + 'to modern js')
 };
 
 // for loops in objects
 person2 = {
-    nameper : 'shajidur rahman',
-    ageper : 12,
-    schoolper : 'dinahpur zilla school'
+    nameper: 'shajidur rahman',
+    ageper: 12,
+    schoolper: 'dinahpur zilla school'
 };
 // use this loop for Objects
-for(key in person2){
+for (key in person2) {
     console.log(`the ${key} of employe is ${person2[key]}`);
 };
 
@@ -277,7 +277,7 @@ for(key in person2){
 
 // while loop
 let iw = 0;
-while (iw <10) {
+while (iw < 10) {
     console.log(`${iw} is less than 10`);
     iw++;
 };
@@ -309,3 +309,35 @@ console.log(sel)
 
 // tutorial 56 finished
 // tutorial 57 started
+
+
+// let para = document.getElementById('para');
+// para.addEventListener('mouseover',function run(){
+//     alert('mouse inside')
+// });
+
+// let mypara = document.getElementById('myp');
+// mypara.addEventListener('mouseover', function runthe() {
+//     alert('mouse inside')
+
+// });
+
+function hide() {
+    let btn = document.getElementById('btn');
+    let para = document.getElementById('para');
+    if (para.style.display != 'none') {
+        para.style.display = "none";
+    }
+
+    else {
+        para.style.display = "block";
+
+    }
+
+}
+
+
+// tutorial 57 finished 
+// tutorial 58 started 
+
+// time and date
