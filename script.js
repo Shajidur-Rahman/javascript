@@ -341,3 +341,59 @@ function hide() {
 // tutorial 58 started 
 
 // time and date
+
+// set time 
+
+function good(time_name){
+    console.log('hellow good morning' + time_name);
+}
+
+timeout = setTimeout(good, 5000, 'shajidur rahman');
+console.log(timeout)
+
+// to cancle use clear timeout
+
+clearTimeout(timeout)
+
+
+// repeating time 
+
+// setInterval(good, 1000, 'shjidur rahman');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// timeout  and a clock
+function display2(){
+    time = new Date();
+    // console.log(time);   
+    document.getElementById('time').innerHTML = time;
+};
+
+
+
+setInterval(display2, 500);  // making a clock is important for it 
+
+
+
+
+
+
+
+// tutorial 58 finished 
+// tutorial 59 started 
+
+
+
