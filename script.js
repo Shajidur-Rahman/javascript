@@ -397,3 +397,18 @@ setInterval(display2, 500);  // making a clock is important for it
 
 
 
+// date and time 
+
+// function date(){
+// let now = new Date();
+// console.log(now)
+// }
+// setInterval(date , 1000);
+
+
+// let newdate = new Date();
+// let year = newdate.getDay();
+// console.log(year);
+
+// tutorial 59 not finished
+// tutorial 60 started
