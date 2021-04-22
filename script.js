@@ -411,4 +411,9 @@ setInterval(display2, 500);  // making a clock is important for it
 // console.log(year);
 
 // tutorial 59 not finished
-// tutorial 60 started
+// tutorial 61 finished
+// tutorial 62 started
+
+
+
+
